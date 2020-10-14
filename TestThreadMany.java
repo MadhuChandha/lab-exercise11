@@ -1,9 +1,5 @@
-/*
-TEAM 1
-lab ex 11
- */
- 
-package lab.ex.pkg11;
+
+package labex11;
 
 //main class
 public class TestThreadMany {
