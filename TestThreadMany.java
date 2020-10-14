@@ -39,5 +39,5 @@ class thread extends Thread
 Hello,I am Thread #1
 Hello,I am Thread #3
 Hello,I am Thread #2
-Hello,I am Thread #1
+Hello,I am Thread #4
 */
