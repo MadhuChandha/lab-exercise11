@@ -1,8 +1,5 @@
-/*
- LAB EX 11
- TEAM 1
- */
-package lab.ex.pkg11;
+
+package labex11;
 //importing package
 
 import java.util.Scanner;
@@ -38,7 +35,7 @@ class ticket extends Thread
     //ticket booking system 
     Scanner obj=new Scanner(System.in);
    static double seats=500;
-    double amt=300;
+    double amt=400;
     static int f=0;
     synchronized public void run()
     {
@@ -106,25 +103,25 @@ Enter number of persons standing in the ticket counter :
 enter the number of seats you want for the person 1 in the queue
 2
 enter your contact number
-1234567890
+4536273527
 enter the name of person 1 : 
-aaf
+madhu
 enter the age of that person 1 : 
-18
+19
 enter the name of person 2 : 
-harshi
+poorni
 enter the age of that person 2 : 
-18
+19
 ========================================
 BILLING DETAILS OF PERSON1IN THE QUEUE
 ========================================
 number of seats required :: 2
 name and age of the persons accomodating the seats
-CONTACT NUMBER :: 1.23456789E9
-NAME :: aaf AGE :: 18
-NAME :: harshi AGE :: 18
+CONTACT NUMBER :: 4536273527
+NAME :: madhu AGE :: 19
+NAME :: poorni AGE :: 19
 THE total amount for2seats :: 
-600.0
+800.0
 -*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-
 */
     
